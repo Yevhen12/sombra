@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import MemberItem from './components/MemberItem/MemberItem';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React Tets
-        </a>
-      </header>
+    <div className="app-container">
+      <h2 className="title">My dream team</h2>
+      <div className="team-container">
+        <MemberItem
+          name="Yevhen"
+          surname="Lys"
+          position="Business analyst"
+          photoUrl='./images/yevhen.jpg'
+          color="green"
+        />
+      </div>
     </div>
   );
 }
+
 
 export default App;
