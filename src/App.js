@@ -26,8 +26,15 @@ function App() {
           position="Developer"
           photoUrl='./images/vasyl.png'
           color="orange"
-          />
-          <MemberItem
+        />
+        <MemberItem
+          name="Tania"
+          surname="Zaiets"
+          position="UI/UX Designer"
+          photoUrl='./images/tania.jpg'
+          color="pink"
+        />
+        <MemberItem
           name="Tania"
           surname="Zaiets"
           position="UI/UX Designer"
