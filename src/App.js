@@ -13,6 +13,13 @@ function App() {
           photoUrl='./images/yevhen.jpg'
           color="green"
         />
+        <MemberItem
+          name="Tania"
+          surname="Zaiets"
+          position="UI/UX Designer"
+          photoUrl='./images/tania.jpg'
+          color="pink"
+        />
       </div>
     </div>
   );
