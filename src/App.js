@@ -14,6 +14,13 @@ function App() {
           color="green"
         />
         <MemberItem
+          name="Vasyl"
+          surname="Komarnytskyi"
+          position="Developer"
+          photoUrl='./images/vasyl.png'
+          color="orange"
+          />
+          <MemberItem
           name="Tania"
           surname="Zaiets"
           position="UI/UX Designer"
