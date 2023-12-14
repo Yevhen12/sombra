@@ -17,7 +17,7 @@ function App() {
           name="Vasyl"
           surname="Komarnytskyi"
           position="Developer"
-          photoUrl='./images/yevhen.jpg'
+          photoUrl='./images/vasyl.png'
           color="orange"
         />
       </div>
