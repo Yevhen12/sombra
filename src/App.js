@@ -1,5 +1,5 @@
-import './App.css';
-import MemberItem from './components/MemberItem/MemberItem';
+import "./App.css";
+import MemberItem from "./components/MemberItem/MemberItem";
 
 function App() {
   return (
@@ -10,8 +10,15 @@ function App() {
           name="Yevhen"
           surname="Lys"
           position="Business analyst"
-          photoUrl='./images/yevhen.jpg'
+          photoUrl="./images/yevhen.jpg"
           color="green"
+        />
+        <MemberItem
+          name="Dmytro"
+          surname="Ivasikiv"
+          position="Developer"
+          photoUrl="./images/dmytro.jpg"
+          color="blue"
         />
         <MemberItem
           name="Vasyl"
@@ -31,6 +38,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
